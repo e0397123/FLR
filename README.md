@@ -42,6 +42,6 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
     'Phi-3-mini-128k-instruct': 1038.0,
     'Llama-2-7b-chat-hf': 1013.0,
     'gemma-2b-it': 978.0
-}``
+}`
 
 
