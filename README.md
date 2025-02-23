@@ -44,3 +44,5 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
     'Llama-2-7b-chat-hf': 1013.0,
     'gemma-2b-it': 978.0
 }`
+
+(5) In each entry of each file, there is a "positive" and "negative" fields, these fields are the logits corresponding to the positive and negative follow-ups for a sub-category.
