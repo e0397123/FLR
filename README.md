@@ -51,4 +51,10 @@ Please refer to scripts, `bash scripts/test_llama3_pos.sh` and `bash scripts/tes
 
 (a) The input data are in JSON format (because I lost the original copies) and luckily, you can derive them from the output demo data. Each test instance in a JSON input file is a list containing all the utterances. 
 
-(b) For unsupervised inference (use base LLM without fine-tuning), please use the script `run_llama3.py`, and for inference using fine-tuned LLM with NL feedback data, please use the script `run_llama3_ft.py`. You may need to adapt the python scripts if you want to switch to other LLMs. There is a subtle difference between their input format, the fine-tuned version switched the role of user and assistant, and added an additional utterance, `Please ask me a question and provide feedback to my answer.` in the front.
+(b) For unsupervised inference (use base LLM without fine-tuning), please use the script `run_llama3.py`, and for inference using fine-tuned LLM with NL feedback data, please use the script `run_llama3_ft.py`. You may need to adapt the python scripts if you want to switch to other LLMs. There is a subtle difference between their input format, the fine-tuned version switched the role of user and assistant, and added an additional utterance, "Please ask me a question and provide feedback to my answer." to the front.
+
+## LLM fine-tuning
+Please refer to the official repo of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), ideally use the version 0.8.3. It is pretty straight-forward to conduct SFT, DPO, KTO experiments with their library, you only need to process the data into their respective format.
+
+## Online Generations
+Please refere to `bash scripts/generate.sh` sampling responses from LLMs.
