@@ -10,7 +10,8 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
 
 (3) For FLASK, MT-Bench-Single-Score, Feedback_Bench, and HelpSteer, the ground-truth overall scores are included in each data entry, and we can conduct correlation analysis for these four benchmarks.
 
-(4) For wildbench_v2, please use the following LMSYS ELO Ratings for model ranking correlation analysis (as of June 7, 2024):
+(4) For wildbench_v2, please use the following LMSYS ELO Ratings for model ranking correlation analysis (as of June 7, 2024, copied from [here](https://huggingface.co/spaces/allenai/WildBench)):
+
 `lmsys_elo = {
     'gpt-4o-2024-05-13': 1283.0,
     'gemini-1.5-pro': 1254.0,
@@ -43,5 +44,3 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
     'Llama-2-7b-chat-hf': 1013.0,
     'gemma-2b-it': 978.0
 }`
-
-
