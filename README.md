@@ -58,3 +58,16 @@ Please refer to the official repo of [LLaMA-Factory](https://github.com/hiyouga/
 
 ## Online Generations
 Download prompt source at [here](https://drive.google.com/drive/folders/1l9DyFJUKu7KeYuJCt-a5qxCjG1xMe6sc?usp=sharing) and refere to `bash scripts/generate.sh` sampling responses from LLMs. The `generate.py` script is adapted from the transformers library.
+
+## Reference
+Please consider citing us if you find this repo useful.
+
+```
+@proceedings{zhang2025aligninglanguagemodelsusing,
+      title={Aligning Language Models Using Follow-up Likelihood as Reward Signal}, 
+      author={Chen Zhang and Dading Chong and Feng Jiang and Chengguang Tang and Anningzhe Gao and Guohua Tang and Haizhou Li},
+      year={2025},
+    booktitle = "Proceedings of the 39th Annual AAAI Conference on Artificial Intelligence",
+    month = Feb,
+    year = "2025"
+}
