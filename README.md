@@ -48,4 +48,4 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
 (5) In each entry of each file, there is a "positive" and "negative" fields, these fields are the logits corresponding to the positive and negative follow-ups for a sub-category.
 
 ## Generate positive and negative logits from LLMs
-use scripts, `bash scripts/test_pos.sh` and `bash scripts/test_neg.sh`` 
+use scripts, `bash scripts/test_pos.sh` and `bash scripts/test_neg.sh`
