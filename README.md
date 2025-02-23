@@ -57,4 +57,4 @@ Please refer to scripts, `bash scripts/test_llama3_pos.sh` and `bash scripts/tes
 Please refer to the official repo of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), ideally use the version 0.8.3. It is pretty straight-forward to conduct SFT, DPO, KTO experiments with their library, you only need to process the data into their respective format.
 
 ## Online Generations
-Please refere to `bash scripts/generate.sh` sampling responses from LLMs.
+Download prompt source at [here](https://drive.google.com/drive/folders/1l9DyFJUKu7KeYuJCt-a5qxCjG1xMe6sc?usp=sharing) and refere to `bash scripts/generate.sh` sampling responses from LLMs.
