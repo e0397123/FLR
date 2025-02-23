@@ -48,4 +48,8 @@ Please find the data at [here](https://drive.google.com/drive/folders/15qrklDPHX
 (5) In each entry of each file, there is a "positive" and "negative" fields, these fields are the logits corresponding to the positive and negative follow-ups for a sub-category.
 
 ## Generate positive and negative logits from LLMs
-use scripts, `bash scripts/test_pos.sh` and `bash scripts/test_neg.sh`
+Please refer to scripts, `bash scripts/test_llama3_pos.sh` and `bash scripts/test_llama3_neg.sh`. 
+
+Note that the input data are in JSON format (because I lost the original copies) and luckily, you can derive them from the output demo data. Each test instance in a JSON input file is a list containing all the utterances. 
+
+For unsupervised inference (meaning without finetuning the LLM with NL feedback data, please use the script `run_llama3.py`, and for inference after fine-tuning, please use the script `run_llama3_ft.py`. You may need to adapt the python scripts if you want to switch to other LLMs.
